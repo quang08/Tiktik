@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
-## Getting Started
+<p align="center"><img src="/utils/tiktik-logo.png" width="400" height="100"><p>
 
-First, run the development server:
+<h1>NewTube</h1>
+  
+<h2 id="table-of-contents">Table of contents</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* [Introduction](#introduction)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Demo](#demo)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2 id="introduction">Introduction</h2>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This is a repository of my (Nguyen The Quang) Tiktik project: a Tiktok-clone
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Check out my [Github](https://github.com/quang08/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Check out my [LinkedIn](https://www.linkedin.com/in/nguyen-the-quang-b8285a227/)
 
-## Learn More
+<h2 id="features">Features</h2>
 
-To learn more about Next.js, take a look at the following resources:
+Tiktik is a Tiktok-style, full-stack website. It allows for users to browse, comment, like and upload short videos. Users are able to Watch, Search videos and view Profile just like Tiktok.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Key Features
+- Tiktok-like UI.
+- HomePage displays the uploaded videos of the all accounts.
+- Functional search, categorized by accounts and videos. 
+- Google OAuth authentication.
+- Stream videos with basic controls.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2 id="technologies">Technologies</h2>
 
-## Deploy on Vercel
+- React.js (create-react-app)
+- react-router
+- axios
+- Zustand (State Manager)
+- Sanity.io (Backend Infrastructure)
+- Tailwind CSS
+  
+### Front-end
+- <strong> [React.js v18.2.0](https://reactjs.org/) </strong>
+  - Design simple views for each state in the application, efficiently update and render components when data changes.
+- <strong> [Tailwind CSS](https://tailwindcss.com/) </strong>
+  - Offers a comprehensive suite of UI tools, icons to help ship new features faster.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Demo
+- [Live Site hosted on Vercel](https://tiktik-lake.vercel.app/)
+- [Source Code on Github](https://github.com/quang08/Tiktik)
